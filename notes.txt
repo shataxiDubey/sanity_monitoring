@@ -1,0 +1,26 @@
+/etc/passwd file contains all the usernames
+
+sort is used for sorting. - r is used for reversing the sort. - k 2 is used to sort according the column 
+and column number is set to 2. - n is added to sort the output numerically otherwise it will sort 287 before 22 
+because 287 is coming before 22 and both have first digit as 2, it does not make difference between 287 and 22 
+because first digit is 2.
+
+rss gives the physical memory usage in KiB.
+vmem gives the virtual memory usage in KiB.
+
+column is used to produce tabular form of data, - t creates table by determining number of columns.
+
+awk scans a file line by line. Awk named after Aho, Weinberger, Kernighan.
+
+grep MemTotal /proc/meminfo = total memory in the system
+
+
+disk space upto depth 1 = du -d 1 -h
+
+to get disk usage by username = du - sh shataxi.dubey (-s gives total size of file or files in the directory 
+and -h is for human readable format)
+
+
+du -sh /home/* 2>/dev/null - it will display the disk usage of all users whose home directory is present in /home.
+
+/dev/null is a file that contains all the errors to a null file.It will not display the error messages on the output screen.
